@@ -5,3 +5,6 @@
 
 class EmailAddressParser
   
+def parse(emailcsv)
+  
+  email
