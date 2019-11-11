@@ -9,8 +9,8 @@ class EmailAddressParser
   
   @@emails = ""
   
-def initialize(emails)
-@emails << emails 
+def initialize(csv)
+@csv << csv 
 end
   
 def parse(emailstring)
