@@ -11,4 +11,4 @@ class EmailAddressParser
   
 def parse(emailcsv)
   data = self.new
-  
+  email
