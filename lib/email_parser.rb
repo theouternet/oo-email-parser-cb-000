@@ -11,4 +11,5 @@ class EmailAddressParser
   
 def parse(emailstring)
   data = self.new
-  emailstring.split(" ")
+  emailstring.split(", ")
+end
