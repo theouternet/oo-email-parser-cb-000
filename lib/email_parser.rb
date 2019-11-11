@@ -12,9 +12,10 @@ def initialize(emails)
 @emails << emails 
 end
   
-def parse(emailstring)
-  data = self.new(emailstring)
-  emailstring.split(", ")
+def parse
+  @emails.split(", ")
+  
+
 end
 
 end
