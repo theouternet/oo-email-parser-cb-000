@@ -10,7 +10,7 @@ class EmailAddressParser
   @@emails = []
   
 def parse(emailstring)
-  data = self.new
+  data = self.new(emailstring)
   emailstring.split(", ")
 end
 
