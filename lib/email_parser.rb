@@ -13,3 +13,5 @@ def parse(emailstring)
   data = self.new
   emailstring.split(", ")
 end
+
+end
