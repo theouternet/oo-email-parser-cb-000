@@ -5,6 +5,8 @@
 
 class EmailAddressParser
   
+  attr_accessor
+  
 def parse(emailcsv)
   
   data = self.new
