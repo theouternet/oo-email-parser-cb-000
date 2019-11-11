@@ -10,7 +10,8 @@ class EmailAddressParser
   @@emails = []
   
 def initialize(emails)
-  new = self.new 
+@@emails << emails 
+end
   
 def parse(emailstring)
   data = self.new(emailstring)
